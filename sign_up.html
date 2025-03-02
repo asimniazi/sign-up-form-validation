@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign_up_css.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-username" placeholder="Username">
+        <span class="error" id="signup-username-error"></span>
+        
+        <input type="email" id="signup-email" placeholder="Email">
+        <span class="error" id="signup-email-error"></span>
+        
+        <input type="password" id="signup-password" placeholder="Password">
+        <span class="error" id="signup-password-error"></span>
+        
+        <input type="password" id="signup-confirm-password" placeholder="Confirm Password">
+        <span class="error" id="signup-confirm-password-error"></span>
+        
+        <input type="number" id="signup-age" placeholder="Age">
+        <span class="error" id="signup-age-error"></span>
+        
+        <input type="tel" id="signup-phone" placeholder="Phone Number">
+        <span class="error" id="signup-phone-error"></span>
+        
+        <input type="text" id="signup-address" placeholder="Address">
+        <span class="error" id="signup-address-error"></span>
+        
+        <button onclick="validateSignUp()">Sign Up</button>
+    </div>
+    <script src="sign_up_java.js"></script>
+</body>
+</html>
